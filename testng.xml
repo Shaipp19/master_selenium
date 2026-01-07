@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+    <test name="Simple Test Cases">
+        <classes>
+            <!-- Specify the full class name here -->
+            <class name="com.Day1" >
+            <methods>
+                <exclude name="demo1"/>
+                </methods>
+            </class>
+            <class name="com.Day2" >
+            <methods>
+                <exclude name="Payment.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

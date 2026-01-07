@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-07T07:31:52 IST" name="SampleSuite" finished-at="2026-01-07T07:31:53 IST" duration-ms="155">
+    <groups>
+    </groups>
+    <test started-at="2026-01-07T07:31:52 IST" name="Simple Test Cases" finished-at="2026-01-07T07:31:53 IST" duration-ms="155">
+      <class name="com.Day1">
+        <test-method signature="demo2()[pri:0, instance:com.Day1@7a52f2a2]" started-at="2026-01-07T07:31:52 IST" name="demo2" finished-at="2026-01-07T07:31:52 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method signature="demo3()[pri:0, instance:com.Day1@7a52f2a2]" started-at="2026-01-07T07:31:52 IST" name="demo3" finished-at="2026-01-07T07:31:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+      </class> <!-- com.Day1 -->
+      <class name="com.Day2">
+        <test-method signature="MobileLogin()[pri:0, instance:com.Day2@7fc229ab]" started-at="2026-01-07T07:31:52 IST" name="MobileLogin" finished-at="2026-01-07T07:31:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogin -->
+        <test-method signature="MobileLogoff()[pri:0, instance:com.Day2@7fc229ab]" started-at="2026-01-07T07:31:52 IST" name="MobileLogoff" finished-at="2026-01-07T07:31:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogoff -->
+        <test-method signature="MobileRestart()[pri:0, instance:com.Day2@7fc229ab]" started-at="2026-01-07T07:31:52 IST" name="MobileRestart" finished-at="2026-01-07T07:31:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileRestart -->
+      </class> <!-- com.Day2 -->
+    </test> <!-- Simple Test Cases -->
+  </suite> <!-- SampleSuite -->
+</testng-results>
