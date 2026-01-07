@@ -1,5 +1,6 @@
 package com;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Day2 {
@@ -26,6 +27,7 @@ public class Day2 {
     @Test
     public void PaymentFailed() {
         System.out.println("Payment Failed");
+        Assert.assertTrue(false);
     }
 
     @Test(dependsOnMethods = {"PaymentFailed"})

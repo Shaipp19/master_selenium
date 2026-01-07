@@ -10,7 +10,7 @@
             </class>
             <class name="com.Day2" >
             <methods>
-                <exclude name="Payment.*"/>
+                <include name="Payment.*"/>
                 </methods>
             </class>
         </classes>
